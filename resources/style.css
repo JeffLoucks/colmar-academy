@@ -1,1 +1,94 @@
+/* Universal Styles */
 
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b6b6b;
+}
+
+/* Navigation */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 64px;
+}
+
+nav {
+    width: 100%;
+    min-height: 64px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+#logo {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+nav img {
+    margin-left: 24px;
+}
+
+
+nav span {
+    padding: 16px;
+    margin-right: 24px;
+}
+
+
+/* Main */
+
+
+.learn-something {
+    width: 100%;
+    height: 500px;
+    margin-top: 64px;
+    background-color: #d8d8d8;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.hero-image img {
+    height: 432px;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button p {
+    padding: 8px 20px;
+    background-color: #4a4a4a;
+    color: #fff;
+    border-radius: 20%;
+}
+
+/* Practicing Section */
+
+.left-side {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 24px;
+}
+
+.right-side {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
